@@ -1,0 +1,53 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>my age</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='my month.css'>
+   
+</head>
+<body>
+<div class="container">
+    <form>
+        <div class="base">
+            <h4>Age Calculator</h4>
+        </div>
+        <div class="block">
+            <p class="title">Date</p>
+            <input type="text" name="date" id="date" placeholder="dd"
+            required="required" minlength="1" maxlength="2" />
+        </div>
+        <div class="block">
+            <p class="title">Month</p>
+            <input  type="text" name="month" id="month" placeholder="mm"
+            required="required" minlength="1" maxlength="2" />
+
+        </div>
+
+        <div class="block">
+            <p class="title">year</p>
+            <input  type="text" name="year" id="year" placeholder="yyy"
+            required="required" minlength="4" maxlength="4" />
+        </div>
+        <div class="base">
+            <Div class="enter">
+                <input type="button" name="submit" value="submit" onclick="age()" />
+            </Div>
+        </div>
+        <div id="age"></div>
+        </div>
+    </form>
+</div>
+
+
+
+
+
+
+
+
+    <script src='my month.js'></script>
+</body>
+</html>
